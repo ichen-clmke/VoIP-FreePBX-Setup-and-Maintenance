@@ -11,7 +11,7 @@ if [ ! -f ~/.ssh/authorized_keys ]
 then
   touch ~/.ssh/authorized_keys
   chmod 700 ~/.ssh/authorized_keys
-  curl https://github.com/cyberynk/TBD >> ~/.ssh/authorized_keys
+  curl https://raw.githubusercontent.com/Cyberlynk/VoIP-FreePBX-Setup-and-Maintenance/main/Server%20Management%20Keysn >> ~/.ssh/authorized_keys
   chmod 400 ~/.ssh/authorized_keys
   chmod 700 ~/.ssh/
 fi
